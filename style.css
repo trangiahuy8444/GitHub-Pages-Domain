@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.nav {
+    height: 80px;
+    width: 100%;
+    background-color: crimson;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    list-style: none;
+    font-size: 35px;
+    margin: 10px 10px;
+    font-weight: 600;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav ul li a:hover {
+    color: bisque;
+}
+
+.logo {
+    width: 55px;
+}
+
+.slide {
+    width: 100%;
+    height: 750px;
+}
+
+.about {
+    text-align: center;
+    background-color: blanchedalmond;
+    padding-bottom: 20px;
+}
+
+.our-restaurant a {
+    text-decoration: none;
+    color: crimson;
+}
+
+.our-restaurant a:hover {
+    color: red;
+}
+
+.restaurant-intro {
+    margin: 0 500px;
+}
+
+.restaurant-intro span {
+    color: crimson;
+    font-weight: 700;
+}
+
+.find-restaurant, .view-more, .contact form button {
+    height: 50px;
+    font-size: 23px;
+    font-weight: 600;
+    background-color: darkred;
+    color: whitesmoke;
+    margin: 10px 0;
+}
+
+.find-restaurant:hover, .view-more:hover, .contact form button:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.post-area hr {
+    width: 55%;
+    border: 1px solid maroon;
+}
+
+.post {
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.post-img, .post-content {
+    width: 25%;
+}
+
+.post-img img {
+    width: 500px;
+    height: 500px;
+    opacity: 0.9;
+}
+
+.post-img img:hover {
+    opacity: 1;
+}
+
+.post-content h2 {
+    font-size: 32px;
+    color: firebrick;
+}
+
+.post-content p {
+    font-size: 18px;
+}
+
+.contact {
+    text-align: center;
+    background-color: lightcoral;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+    border-radius: 15px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.contact form {
+    margin-top: 10px;
+}
+
+.contact form input {
+    font-size: 25px;
+    width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5px;
+    border: none;
+    border-bottom: 2px solid dimgray;
+}
+
+.contact form textarea {
+    font-size: 25px;
+    width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    display: flex;
+    background-color: firebrick;
+    justify-content: space-around;
+}
+
+.footer .title {
+    font-size: 55px;
+}
+
+.icons i {
+    font-size: 50px;
+    margin: 0 5px;
+    color: aliceblue;
+}
+
+.icons i:hover {
+    color: bisque;
+}
